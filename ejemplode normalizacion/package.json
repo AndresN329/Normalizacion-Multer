@@ -1,0 +1,27 @@
+{
+  "name": "normalizacion-csv",
+  "version": "1.0.0",
+  "description": "Aplicación para normalizar datos CSV con MySQL",
+  "main": "frontend.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "csv",
+    "mysql",
+    "normalizacion",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC"
+}
